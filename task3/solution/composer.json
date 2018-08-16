@@ -1,0 +1,20 @@
+{
+    "name": "namig/task3",
+    "description": "Task3",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "namig64",
+            "email": "namig.nurmamedov@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Task3\\": "src/"
+        }
+    }
+}
