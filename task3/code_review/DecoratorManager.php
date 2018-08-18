@@ -59,7 +59,7 @@ class DecoratorManager extends DataProvider
 				return $cacheItem->get();
 			}
 
-			// TODO: у родителя это не статический метод, чтобы к нему так обращаться, должно быть $this->get($input)
+			// TODO: лучше обратиться так $this->get($input), т.к. названия методов в родительском и дочернем классе отличаются
 			$result = parent::get($input);
 
 			$cacheItem

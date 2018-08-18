@@ -9,6 +9,7 @@
 class BigNumber
 {
 	/**
+	 * Исходное число в виде строки
 	 * @var string
 	 */
 	private $original;
